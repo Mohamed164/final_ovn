@@ -1,0 +1,108 @@
+{
+ "A": {
+  "connected_nodes": [
+   "B",
+   "C",
+   "D",
+   "H"
+  ],
+  "position": [
+   -350,
+   150
+  ]
+ },
+ "B": {
+  "connected_nodes": [
+   "A",
+   "D",
+   "F"
+  ],
+  "position": [
+   -100,
+   400
+  ]
+ },
+ "C": {
+  "connected_nodes": [
+   "A",
+   "D",
+   "I",
+   "H",
+   "E"
+  ],
+  "position": [
+   -200,
+   -300
+  ]
+ },
+ "D": {
+  "connected_nodes": [
+   "A",
+   "B",
+   "C",
+   "E",
+   "F"
+  ],
+  "position": [
+   0,
+   0
+  ]
+ },
+ "E": {
+  "connected_nodes": [
+   "C",
+   "D",
+   "I",
+   "K"
+  ],
+  "position": [
+   150,
+   -350
+  ]
+ },
+ "F": {
+  "connected_nodes": [
+   "B",
+   "D",
+   "K"
+  ],
+  "position": [
+   300,
+   250
+  ]
+ },
+  "H": {
+  "connected_nodes": [
+   "A",
+   "C",
+   "I"
+  ],
+  "position": [
+   -500,
+   -600
+  ]
+ },
+  "I": {
+  "connected_nodes": [
+   "E",
+   "H",
+   "K",
+   "C"
+  ],
+  "position": [
+   300,
+   -600
+  ]
+ },
+  "K": {
+  "connected_nodes": [
+   "F",
+   "I",
+   "E"
+  ],
+  "position": [
+   400,
+   0
+  ]
+ }
+}
